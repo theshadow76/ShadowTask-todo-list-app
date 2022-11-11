@@ -120,9 +120,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             builder: (BuildContext context) => UsePaypal(
                               sandboxMode: false,
                               clientId:
-                                  "Ac-QdnvDtn9PW8nDBBvV6je_ZwRv5PvOKfdZG6nK_BJGrURRBm4EFCHW7S1fHsWqQ0pk16EfYx-UDcvM",
+                                  "",
                               secretKey:
-                                  "ELLQ7_zXA8JsOL4dr-RJ6s50f89EqqEYnviwwjSt83Keiov4dEpt4-AULnJKLLiOGik6jdjQW4PtOkkf",
+                                  "",
                               returnURL: "https://samplesite.com/return",
                               cancelURL: "https://samplesite.com/cancel",
                               transactions: const [
